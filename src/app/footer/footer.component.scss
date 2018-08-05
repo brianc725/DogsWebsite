@@ -1,0 +1,16 @@
+#footer {
+    background-color: #ebd8c6;
+    margin: 0px;
+    padding: 20px;
+}
+
+p {
+    text-align: center;
+    color: black;
+    margin: 0px;
+}
+
+a {color: black;;}      /* unvisited link */
+a:visited {color: black;}  /* visited link */
+a:hover {color:#bb7e44;}  /* mouse over link */
+a:active {color:#bb7e44;}  /* selected link */
