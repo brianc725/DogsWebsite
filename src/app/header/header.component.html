@@ -4,7 +4,7 @@
         </div>
         <ul class="nav navbar-nav">
             <li>
-                <a routerLink="" class="navbar-brand">
+                <a routerLink="" class="navbar-brand" (click)="fetchImage()">
                     <i class="material-icons">
                         pets
                     </i>
@@ -14,7 +14,7 @@
         </ul>
         <ul class="nav navbar-nav navbar-right">
             <li>
-                <a routerLink="">
+                <a routerLink="random" (click)="fetchImage()">
                     <i class="material-icons">
                         shuffle
                     </i>
