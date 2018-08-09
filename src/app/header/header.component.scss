@@ -7,8 +7,10 @@ nav {
     a:visited {color: black;}  /* visited link */
     a:hover {color:#bb7e44;}  /* mouse over link */
     a:active {color:#bb7e44;}  /* selected link */
-}
-h1 {
-    display: inline-block;
-    padding-left: 30px;
+
+    p {
+        display: inline-block;
+        padding-left: 30px;
+        font-size: 1.5em;
+    }
 }
