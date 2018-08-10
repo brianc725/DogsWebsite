@@ -16,10 +16,10 @@ export class RandomdogComponent implements OnInit {
   constructor(private data: DataService) { }
 
   ngOnInit() {
-    this.getData();
+    this.getRandomData();
   }
 
-  getData() {
+  getRandomData() {
     this.data.getRandom().subscribe(
       (data) => {
             this.Image = data; //gets the Image object from the Dog API

@@ -1,0 +1,17 @@
+.center {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+a {color: black;}      /* unvisited link */
+a:visited {color: black;}  /* visited link */
+a:hover {color:#bb7e44;}  /* mouse over link */
+a:active {color:#bb7e44;}  /* selected link */
