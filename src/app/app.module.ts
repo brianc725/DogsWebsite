@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { FooterComponent } from './footer/footer.component';
 import { BreedslistComponent } from './breedslist/breedslist.component';
 import { RandomdogComponent } from './randomdog/randomdog.component';
+import { SpecificbreedComponent } from './specificbreed/specificbreed.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RandomdogComponent } from './randomdog/randomdog.component';
     HeaderComponent,
     FooterComponent,
     BreedslistComponent,
-    RandomdogComponent
+    RandomdogComponent,
+    SpecificbreedComponent
   ],
   imports: [
     BrowserModule,

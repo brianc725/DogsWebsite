@@ -1,7 +1,8 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { RandomdogComponent } from './randomdog/randomdog.component'
-import { BreedslistComponent } from './breedslist/breedslist.component'
+import { RandomdogComponent } from './randomdog/randomdog.component';
+import { BreedslistComponent } from './breedslist/breedslist.component';
+import { SpecificbreedComponent } from './specificbreed/specificbreed.component';
 
 const routes: Routes = [
   {
@@ -16,6 +17,10 @@ const routes: Routes = [
   {
     path: 'breedlist',
     component: BreedslistComponent
+  },
+  {
+    path: 'specific/:breed',
+    component: SpecificbreedComponent
   }
 ];
 

@@ -2,7 +2,7 @@
     <h1>List of Breeds</h1>
     <ul>
         <li *ngFor="let breed of breeds">
-           <a>{{breed}}</a>
+           <a routerLink="/specific/{{breed}}">{{breed}}</a>
         </li>
     </ul>
 </div>

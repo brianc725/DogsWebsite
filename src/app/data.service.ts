@@ -16,4 +16,8 @@ export class DataService {
   getRandom() {
     return this.http.get('https://dog.ceo/api/breeds/image/random')
   }
+
+  getDetailed(breed) {
+    return this.http.get('https://dog.ceo/api/breed/' + breed +'/images/random')
+  }
 }
