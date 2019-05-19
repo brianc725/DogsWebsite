@@ -1,6 +1,6 @@
 # DogsWebsite
 
-Note: I attempted to push this project onto Github pages but it doesn't seem to like it so to view the project you'd have to clone this and use `ng serve`. 
+Note: I attempted to display this project onto Github pages but it doesn't seem to like it so to view the project you'd have to clone this and use `ng serve`. 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.2.
 
